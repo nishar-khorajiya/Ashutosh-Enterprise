@@ -18,8 +18,9 @@ dotenv.config();
 const __filename=fileURLToPath(import.meta.url);
 const __dirname=path.dirname(__filename);
 
+const allowedOrigins = ['http://localhost:3000', 'https://super-plum-hippo.cyclic.app/'];
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: allowedOrigins,
   exposedHeaders: 'Authorization',
   exposedHeaders: 'user',
 }));
