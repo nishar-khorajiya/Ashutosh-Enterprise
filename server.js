@@ -28,7 +28,7 @@ const __dirname=path.dirname(__filename);
     //Enabling CORS
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Methods", "GET,HEAD,OPTIONS,POST,PUT");
-    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, ,'user','Authorization');
+    res.header("Access-Control-Allow-Headers", 'Content-Type' ,'user','Authorization');
       next();
     });
 
