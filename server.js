@@ -38,12 +38,12 @@ app.set('strict routing', true);
 app.use('/api/v1/auth', authRoutes);
 app.use('/api/v1/category', categoryRotes);
 app.use('/api/v1/product', productRoutes);
-app.use(express.static(path.join(__dirname,'../frontend/build')))
+app.use(express.static(path.join(__dirname,'./frontend/build')))
 const port = process.env.PORT || 8080;
 
 app.get('*', function(req, res) {
 
-  res.sendFile(path.join(__dirname,'../frontend/build/index.html'))
+  res.sendFile(path.join(__dirname,'./frontend/build/index.html'))
 })
 
 app.listen(port, () => {
