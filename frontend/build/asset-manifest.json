@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d311beab.css",
-    "main.js": "/static/js/main.3c8b0240.js",
+    "main.css": "/static/css/main.82853dde.css",
+    "main.js": "/static/js/main.e812223b.js",
     "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
     "static/media/ambuja_cement_carousel": "/static/media/ambuja_cement_carousel.22a5efb362804f98919e",
     "static/media/14": "/static/media/14.656f0f063f5ccb830141",
@@ -44,12 +44,12 @@
     "static/media/asianbanner2.png": "/static/media/asianbanner2.ce3ba81a2fbf67f3c2db.png",
     "static/media/ambujabanner.webp": "/static/media/ambujabanner.60196bfde346731b29da.webp",
     "index.html": "/index.html",
-    "main.d311beab.css.map": "/static/css/main.d311beab.css.map",
-    "main.3c8b0240.js.map": "/static/js/main.3c8b0240.js.map",
+    "main.82853dde.css.map": "/static/css/main.82853dde.css.map",
+    "main.e812223b.js.map": "/static/js/main.e812223b.js.map",
     "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d311beab.css",
-    "static/js/main.3c8b0240.js"
+    "static/css/main.82853dde.css",
+    "static/js/main.e812223b.js"
   ]
 }
